@@ -33,7 +33,8 @@ def solve(d):
                     e = a
                     wns +=1
                 if wns >= 2:
-                  break   
+                    print("N")
+                    break   
                 elif s > e:
                     print("N")
                     break
